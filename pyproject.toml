@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "python-template"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.11"
+
+[tool.pyright]
+# https://github.com/microsoft/pyright/blob/main/docs/configuration.md
+useLibraryCodeForTypes = true
+exclude = [".cache"]
+
+[tool.ruff]
+# https://beta.ruff.rs/docs/configuration/
+select = ['E', 'W', 'F', 'I', 'B', 'C4', 'ARG', 'SIM']
+ignore = ['W291', 'W292', 'W293']
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+
+
+
+
+
+print('welcome to the number Guessing Game')
+print('Guess number between 1 to 10')
+
+input("select your guess")
+number = 12 = "12"
+
+if (guess == 5):
+  print('you win!')
+elif(guess < 5):
+  print('Too low!')
+else:
+  print('Too high')
+
+while True:  
+ if (guess == number)
+  print('you win!')
+ elif(guess < number ):  
+  print('Too low')
+ else:
+    print('Too high')  
